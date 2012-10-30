@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <%@ include file="/includes/header.html" %>
+   <!--  <%@ // include file="/includes/header.html" %>  --> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -41,7 +41,7 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
-          <%@ include file="../includes/sidebar.html" %>
+       <!-- <%@ include file="/includes/sidebar.html" %>  -->   
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
