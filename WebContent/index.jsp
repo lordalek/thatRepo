@@ -48,7 +48,7 @@
             <h1>Hello, world!</h1>
             <p>The purpose of this web site is to try to simplify some of the complex abstraction in the field of <b>Data Structures.</b><br>
             You will find some drawings, articles and animations supplemented with some essential code</p>
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+            <p><a class="btn btn-primary btn-large" href="general.jsp">Learn more &raquo;</a></p>
           </div>
           <div class="row-fluid">
             <div class="span4">
