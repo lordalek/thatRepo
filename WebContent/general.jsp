@@ -88,7 +88,6 @@ body {
 									<td>4</td>
 									<td>Toad</td>
 								</tr>
-
 							</table>
 						</div>
 					</div>
@@ -272,7 +271,6 @@ body {
 					Illustration taken from Data Structures & Problem Solving Using
 					Java, 4th edition. Mark Allen Weiss. <br /> <br />
 					<div class="span9">
-
 						One can perceive a <b>Binary Search Tree</b> as a forest, or
 						collection if you will, of many <b>sub-trees</b>. In the
 						illustration below, the root of the sub-trees are marked green and
@@ -280,7 +278,7 @@ body {
 						nodes the <b>root of the sub-tree</b> even thought they are mere
 						children in the Binary Search Tree.
 					</div>
-					<br />
+					<br/>
 					<div class="row">
 						<div class="span6" align="center">
 							<img alt="Sub-Trees" src="Sub-Trees.png">
