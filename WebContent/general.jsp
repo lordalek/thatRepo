@@ -295,9 +295,7 @@ body {
 			</div>
 		</div>
 		<!--/span-->
-		<sup>1</sup> Database Modeling Essentials (page 368), 3rd Edition.
-		Simsion and Witt (2005) <sup>2</sup> Algorithms: Sequental, Parallel,
-		and Distributed (chapter 4). Berman and Paul (2005)
+		
 	</div>
 	<!--/row-->
 
