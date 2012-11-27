@@ -45,28 +45,11 @@
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
-            <h1>Hello, world!</h1>
-            <p>The purpose of this web site is to try to simplify some of the complex abstraction in the field of <b>Data Structures.</b><br>
+            <h1>Binary Search Tree</h1>
+            <p>This web site will try to simplify some of the complex abstraction of the <b>Binary Search Tree.</b>
             You will find some drawings, articles and animations supplemented with some essential code</p>
             <p><a class="btn btn-primary btn-large" href="general.jsp">Learn more &raquo;</a></p>
           </div>
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Binary Tree</h2>
-              <p>This section will try to explain the core knowledge of Binary Search Trees. </p>
-              <p><a class="btn" href="generalTree.html">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Hash Table</h2>
-              <p>This section will try to explain some of the core principles of the Hash Table </p>
-              <p><a class="btn" href="general.html">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Resources</h2>
-              <p>Links and references. </p>
-              <p><a class="btn" href="webSite.html">View details &raquo;</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->
 
