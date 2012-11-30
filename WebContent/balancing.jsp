@@ -51,16 +51,16 @@ body {
 			<!--/span-->
 			<div class="span9">
 				<div class="hero-unit">
-					<h1>Deletion in a Binary Search Tree</h1>
+					<h1>Balancing The Tree</h1>
 					<div class="hero-unit">
 						This web site will use Weiss' Java implementation of the Binary
 						Search Tree. <a
 							href="http://users.cis.fiu.edu/~weiss/dsj4/code/code.html">Here</a>
-						is a link to the code which is used in this example.<br>
-						<br>
-						 Deletion in a
-						<b>Binary Search Tree </b> is implemented recursively, just like
-						the insert methods.
+						is a link to the code which is used in this example.<br> <br>
+						A <b>binary search tree</b> is subject to change and will after a
+						few alterations become unbalanced. One can say that the tree is
+						unbalanced if a node's left child is not smaller than itself or if
+						a node's right child is not larger than itself.
 					</div>
 				</div>
 				<div class="hero-unit row">
@@ -74,26 +74,6 @@ body {
 						<applet code="animations.RemoveMin" archive="animations.jar"
 							width="350" height="300"> Could not load applet</applet>
 					</div>
-				</div>
-				<div class="hero-unit row">
-					The second easiest method to implement is the <b>RemoveMax</b>.<br>
-					RemoveMMax is implemented recursively like the RemoveMin, but
-					RemoveMax searches for the largest node, the rightmost node.
-				</div>
-				<div class="hero-unit row">
-					<div class="span4">The trickiest to understand is the
-						algorithm which removes a specific node. It searches for the given
-						node just like its opposite algorithm Insert(anyNode), but it
-						differs when the removed node has two children. 
-						<br>
-						<br>
-						If the removed node has two children, then the smaller of the two will be set at the new root of the subtree.  
-						<br>
-						<br>
-						A simple case is demonstrated with the applet to the left.</div>
-					<div class="span5"><applet code="animations.Remove" archive="animations.jar"
-							width="450" height="400"> Could not load applet</applet>
-					</div></div>
 				</div>
 				<!--/span-->
 			</div>

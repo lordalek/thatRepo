@@ -109,8 +109,8 @@ body {
 					demonstrate the insertion
 				</div>
 				<div class="span2">
-					<applet code="insertAnimation.InsertSingleNode"
-						archive="insertAll.jar" width="350" height="300"> Could
+					<applet code="animations.InsertSingleNode"
+						archive="animations.jar" width="350" height="300"> Could
 						not load applet</applet>
 				</div>
 					</div>					
@@ -127,8 +127,8 @@ body {
 					node, the value 13 is set as a new subtree of the value 10 node.
 				</div>
 				<div class="span2">
-					<applet code="insertAnimation.InsertSecondNode"
-						archive="insertAll.jar" width="350" height="350"> Could
+					<applet code="animations.InsertSecondNode"
+						archive="animations.jar" width="350" height="350"> Could
 						not load applet</applet>
 				</div>
 					</div>
@@ -139,8 +139,8 @@ body {
 					The Applet to the right will construct a simple tree.
 				</div>
 				<div class="span5">
-					<applet code="insertAnimation.ConstructATree"
-						archive="insertAll.jar" width="550" height="350"> Could
+					<applet code="animations.ConstructATree"
+						archive="animations.jar" width="550" height="350"> Could
 						not load applet</applet>
 				</div>
 					</div>
