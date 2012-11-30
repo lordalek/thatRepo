@@ -64,16 +64,50 @@ body {
 					</div>
 				</div>
 				<div class="hero-unit row">
-					<div class="span4">
-						The easiest remove method to implement is the <b>RemoveMin.</b><br>
-						RemoveMin calls itself in the node's left child until it can no
-						longer find a left node.<br>It then removes the reference to
-						the smallest node, which is the leftmost node, and returns itself.
-					</div>
-					<div class="span5">
-						<applet code="animations.RemoveMin" archive="animations.jar"
-							width="350" height="300"> Could not load applet</applet>
-					</div>
+					<table width="100%">
+						<tr>
+							<td width="50%">Having the left child smaller than the root
+								node, and the right child larger than the root node, is not
+								always enough to achieve <b>O(log N)</b>. If a tree has a single
+								branch with five nodes, then the search time for a given node
+								would be <b>O(N)</b> because the algorithm would never have the
+								option of comparing two nodes. <br> <br> <i>An AVL
+									tree<sup>4</sup> is a binary search tree with the additional
+									balance property that, for any node in the three, the height of
+									the left and right subtrees can differ at most by 1. As usual,
+									the height of an empty subtree is -1.
+							</i> <br> <br> This means that the tree on the right is
+								unbalanced because the height of the subtree of node 5 is not 1,
+								0 or -1, but 4. <b>Binary Search Trees </b> deals with this
+								problem by rotation the subtrees.
+							</td>
+							<td width="50%" align="center"><img alt="unbalanced"
+								src="unbalanced.png"> <i>Unbalanced Tree</i></td>
+						</tr>
+						<tr>
+							<td width="50%"></td>
+							<td width="50%" align="center"><img alt="balanced"
+								src="BALANCEDTREE.png"><i>Balanced Tree</i></td>
+						</tr>
+					</table>
+				</div>
+				<div class="hero-unit row">
+					<table width="100%">
+						<tr>
+						<td>
+							The picture on the right is illustrating a
+								binary search tree that is unbalanced. Node 1 is the node to
+								blame for the tree being unbalanced. It causes node 4 has a
+								height of 2, instead of 1, 0 or -1. The tree solves this problem by rotating node 4 with node 8. 
+								The applet will illustrate the the whole process.
+						</td>
+						</tr>
+							<tr>
+							<applet code="animations.SingleRotateLeft" archive="animations.jar"
+							width="600" height="400"> Could not load applet</applet>
+							</tr>
+						</tr>
+					</table>
 				</div>
 				<!--/span-->
 			</div>
