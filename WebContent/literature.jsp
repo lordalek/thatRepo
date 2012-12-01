@@ -56,6 +56,8 @@ body {
 					Simsion and Witt (2005) <sup>2</sup> Algorithms: Sequental,
 					Parallel, and Distributed (chapter 4). Berman and Paul (2005)
 				</div>
+				
+				http://glyphicons.com/
 			</div>
 		</div>
 		<!--/row-->

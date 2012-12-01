@@ -85,8 +85,8 @@ body {
 								src="unbalanced.png"> <i>Unbalanced Tree</i></td>
 						</tr>
 						<tr>
-							<td width="50%"></td>
-							<td width="50%" align="center"><img alt="balanced"
+							<td width="40%"></td>
+							<td width="60%" align="center"><img alt="balanced"
 								src="BALANCEDTREE.png"><i>Balanced Tree</i></td>
 						</tr>
 					</table>
@@ -94,18 +94,33 @@ body {
 				<div class="hero-unit row">
 					<table width="100%">
 						<tr>
-						<td>
-							The picture on the right is illustrating a
-								binary search tree that is unbalanced. Node 1 is the node to
-								blame for the tree being unbalanced. It causes node 4 has a
-								height of 2, instead of 1, 0 or -1. The tree solves this problem by rotating node 4 with node 8. 
-								The applet will illustrate the the whole process.
-						</td>
+							<td>The applet above illustrating a binary search tree that
+								is unbalanced. Node 1 is the node to blame for the tree being
+								unbalanced. It causes node 4 has a height of 2, instead of 1, 0
+								or -1. The tree solves this problem by rotating node 4 with node
+								8. The applet will illustrate the algorithm.</td>
 						</tr>
-							<tr>
-							<applet code="animations.SingleRotateLeft" archive="animations.jar"
-							width="600" height="400"> Could not load applet</applet>
-							</tr>
+						<tr>
+							<applet code="animations.SingleRotateLeft"
+								archive="animations.jar" width="600" height="400">
+								Could not load applet</applet>
+						</tr>
+						</tr>
+					</table>
+				</div>
+
+				<div class="hero-unit row">
+					<table width="100%">
+						<tr>
+							<td>A single rotation is often not enough to balance a tree.
+								The applet above will illustrate how to balance a tree where two
+								subtrees are unbalanced.</td>
+						</tr>
+						<tr>
+							<applet code="animations.DoubleRotationLeft"
+								archive="animations.jar" width="600" height="400">
+								Could not load applet</applet>
+						</tr>
 						</tr>
 					</table>
 				</div>
